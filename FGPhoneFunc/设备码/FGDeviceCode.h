@@ -15,6 +15,7 @@ NS_ASSUME_NONNULL_BEGIN
 + (instancetype)sharedInstance;
 
 - (NSString *)getVender;
+- (NSString *)getIDFA;
 
 @property (nonatomic,copy) NSString * key_udid;
 @property (nonatomic,copy) NSString * key_in_keychain;

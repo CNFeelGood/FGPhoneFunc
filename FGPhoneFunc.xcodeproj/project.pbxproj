@@ -12,6 +12,8 @@
 		F772266B2377D70B00BB04B8 /* FGPhoneStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = F77226692377D70B00BB04B8 /* FGPhoneStyle.m */; };
 		F772266F2377DDE500BB04B8 /* FGDeviceCode.h in Headers */ = {isa = PBXBuildFile; fileRef = F772266D2377DDE500BB04B8 /* FGDeviceCode.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F77226702377DDE500BB04B8 /* FGDeviceCode.m in Sources */ = {isa = PBXBuildFile; fileRef = F772266E2377DDE500BB04B8 /* FGDeviceCode.m */; };
+		F77226902379638300BB04B8 /* FGCache.h in Headers */ = {isa = PBXBuildFile; fileRef = F772268E2379638300BB04B8 /* FGCache.h */; };
+		F77226912379638300BB04B8 /* FGCache.m in Sources */ = {isa = PBXBuildFile; fileRef = F772268F2379638300BB04B8 /* FGCache.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		F77226692377D70B00BB04B8 /* FGPhoneStyle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FGPhoneStyle.m; sourceTree = "<group>"; };
 		F772266D2377DDE500BB04B8 /* FGDeviceCode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FGDeviceCode.h; sourceTree = "<group>"; };
 		F772266E2377DDE500BB04B8 /* FGDeviceCode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FGDeviceCode.m; sourceTree = "<group>"; };
+		F772268E2379638300BB04B8 /* FGCache.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FGCache.h; sourceTree = "<group>"; };
+		F772268F2379638300BB04B8 /* FGCache.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FGCache.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +61,7 @@
 				F77226562377D38200BB04B8 /* FGPhoneFunc.h */,
 				F77226672377D6E900BB04B8 /* 手机型号 */,
 				F772266C2377DD4400BB04B8 /* 设备码 */,
+				F772268D237962D300BB04B8 /* 文件缓存 */,
 				F77226572377D38200BB04B8 /* Info.plist */,
 			);
 			path = FGPhoneFunc;
@@ -80,6 +85,15 @@
 			path = "设备码";
 			sourceTree = "<group>";
 		};
+		F772268D237962D300BB04B8 /* 文件缓存 */ = {
+			isa = PBXGroup;
+			children = (
+				F772268E2379638300BB04B8 /* FGCache.h */,
+				F772268F2379638300BB04B8 /* FGCache.m */,
+			);
+			path = "文件缓存";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -87,6 +101,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F77226902379638300BB04B8 /* FGCache.h in Headers */,
 				F772266A2377D70B00BB04B8 /* FGPhoneStyle.h in Headers */,
 				F772266F2377DDE500BB04B8 /* FGDeviceCode.h in Headers */,
 				F77226582377D38200BB04B8 /* FGPhoneFunc.h in Headers */,
@@ -162,6 +177,7 @@
 			files = (
 				F772266B2377D70B00BB04B8 /* FGPhoneStyle.m in Sources */,
 				F77226702377DDE500BB04B8 /* FGDeviceCode.m in Sources */,
+				F77226912379638300BB04B8 /* FGCache.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

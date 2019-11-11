@@ -9,10 +9,12 @@
 #import "FGDeviceCode.h"
 #import <Security/Security.h>
 #import <UIKit/UIKit.h>
+#import <AdSupport/AdSupport.h>
 
 @interface FGDeviceCode ()
 
 @property (nonatomic,copy) NSString * uuid;
+@property (nonatomic,copy) NSString * idfa;
 
 @end
 
@@ -43,6 +45,15 @@
     NSString * string = [self readUDID];
     NSLog(@"vender----%@",string);
     return string;
+}
+- (NSString *)getIDFA{
+    if (self.idfa.length == 0) {
+        self.idfa = [[[ASIdentifierManager sharedManager] advertisingIdentifier] UUIDString];
+    }
+    if (self.idfa.length == 0) {
+        self.idfa = @"";
+    }
+    return self.idfa;
 }
 
 #pragma mark - 读取uuid
