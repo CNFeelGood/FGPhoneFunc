@@ -16,4 +16,5 @@ FOUNDATION_EXPORT const unsigned char FGPhoneFuncVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <FGPhoneFunc/PublicHeader.h>
 
-
+#import <FGPhoneFunc/FGPhoneStyle.h>
+#import <FGPhoneFunc/FGDeviceCode.h>

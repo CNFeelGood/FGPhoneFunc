@@ -8,9 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		F77226582377D38200BB04B8 /* FGPhoneFunc.h in Headers */ = {isa = PBXBuildFile; fileRef = F77226562377D38200BB04B8 /* FGPhoneFunc.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F772266A2377D70B00BB04B8 /* FGPhoneStyle.h in Headers */ = {isa = PBXBuildFile; fileRef = F77226682377D70B00BB04B8 /* FGPhoneStyle.h */; };
+		F772266A2377D70B00BB04B8 /* FGPhoneStyle.h in Headers */ = {isa = PBXBuildFile; fileRef = F77226682377D70B00BB04B8 /* FGPhoneStyle.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F772266B2377D70B00BB04B8 /* FGPhoneStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = F77226692377D70B00BB04B8 /* FGPhoneStyle.m */; };
-		F772266F2377DDE500BB04B8 /* FGDeviceCode.h in Headers */ = {isa = PBXBuildFile; fileRef = F772266D2377DDE500BB04B8 /* FGDeviceCode.h */; };
+		F772266F2377DDE500BB04B8 /* FGDeviceCode.h in Headers */ = {isa = PBXBuildFile; fileRef = F772266D2377DDE500BB04B8 /* FGDeviceCode.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F77226702377DDE500BB04B8 /* FGDeviceCode.m in Sources */ = {isa = PBXBuildFile; fileRef = F772266E2377DDE500BB04B8 /* FGDeviceCode.m */; };
 /* End PBXBuildFile section */
 

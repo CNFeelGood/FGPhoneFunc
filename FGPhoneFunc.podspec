@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "FGPhoneFunc"             #名称
-  s.version      = "0.0.1"              #版本号
+  s.version      = "0.0.2"              #版本号
   s.summary      = "FGPhoneFunc"       #简短介绍
   s.description  = <<-DESC
                     FGPhoneFunc
