@@ -12,7 +12,7 @@
 		F772266B2377D70B00BB04B8 /* FGPhoneStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = F77226692377D70B00BB04B8 /* FGPhoneStyle.m */; };
 		F772266F2377DDE500BB04B8 /* FGDeviceCode.h in Headers */ = {isa = PBXBuildFile; fileRef = F772266D2377DDE500BB04B8 /* FGDeviceCode.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F77226702377DDE500BB04B8 /* FGDeviceCode.m in Sources */ = {isa = PBXBuildFile; fileRef = F772266E2377DDE500BB04B8 /* FGDeviceCode.m */; };
-		F77226902379638300BB04B8 /* FGCache.h in Headers */ = {isa = PBXBuildFile; fileRef = F772268E2379638300BB04B8 /* FGCache.h */; };
+		F77226902379638300BB04B8 /* FGCache.h in Headers */ = {isa = PBXBuildFile; fileRef = F772268E2379638300BB04B8 /* FGCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F77226912379638300BB04B8 /* FGCache.m in Sources */ = {isa = PBXBuildFile; fileRef = F772268F2379638300BB04B8 /* FGCache.m */; };
 /* End PBXBuildFile section */
 
@@ -101,9 +101,9 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F77226902379638300BB04B8 /* FGCache.h in Headers */,
 				F772266A2377D70B00BB04B8 /* FGPhoneStyle.h in Headers */,
 				F772266F2377DDE500BB04B8 /* FGDeviceCode.h in Headers */,
+				F77226902379638300BB04B8 /* FGCache.h in Headers */,
 				F77226582377D38200BB04B8 /* FGPhoneFunc.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
